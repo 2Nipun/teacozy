@@ -1,0 +1,133 @@
+
+
+body {
+  margin:0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header */
+.header {
+  height:69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  background-color: black;
+  z-index: 50;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+    /* Logo Left*/
+
+
+    /* Nav Right */
+
+    .nav {
+      display: inline-block;
+    }
+
+    .nav span{
+      padding: 10px;
+    }
+
+    .nav a {
+      color: seashell;
+    }
+
+/* Main */
+
+.main {
+  width: 1200px;
+  margin: auto;
+  padding-top: 70px;
+}
+    /* Mission */
+    .mission {
+      height: 700px;
+      width: 1200px;
+      display: flex;
+      background-image: url('./resources/img-mission-background.jpg');
+      align-items: center;
+    }
+        /* Middle Block */
+        .mission-middle {
+          background-color: black;
+          width: 1200px;
+          justify-content: center;
+          align-items: center;
+          z-index: 30;
+          text-align: center;
+          opacity: 0.9;
+        }
+
+    /* Featured */
+    .featured {
+      text-align: center;
+    }
+
+        /* Middle Block*/
+        .featured-middle {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        /* Spans*/
+        .featured-middle span {
+          margin: 10px;
+        }
+
+    /* Locations */
+    .locations {
+      height: 500px;
+      background-image: url('./resources/img-locations-background.jpg');
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+        /* Middle Block*/
+        .locations-middle {
+          display: flex;
+          justify-content: center;
+        }
+
+        /* Spans*/
+        .span2 {
+          background-color: black;
+          width: 300px;
+          height: 250px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-content: space-between;
+          opacity: 0.9;
+          margin: 20px;
+          z-index: 30;
+        }
+
+        .span2 span {
+          padding: 10px;
+        }
+
+    /* Contact*/
+    .contact {
+      text-align: center;
+      height: 200px;
+    }
+
+/* Footer */
+.footer {
+  text-align: left;
+  margin-left: 20px;
+}
